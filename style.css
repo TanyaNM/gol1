@@ -1,10 +1,8 @@
 body {
     font-family: sans-serif;
+    background-image: linear-gradient(to right bottom,lightgreen, yellow, lightgreen);
 }
 
-body {
-    font-family: sans-serif;
-}
 
 h1, h2 {
     text-align: center;
@@ -31,7 +29,18 @@ h1, h2 {
          background-color: #4CAF50;
          color: white;
       }
-      .image{
-        display: flex;
-        justify-content: center;
+     img{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto; 
+      }
+        footer{
+        background-color: #ce0f0f;
+    
+      }
+      footer h2 {
+        margin: 20px;
+        padding: 20px;
       }
